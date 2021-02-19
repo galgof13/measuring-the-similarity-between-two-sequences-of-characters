@@ -1,6 +1,6 @@
 def build_scoring_matrix(alphabet, diag_score, off_diag_score, dash_score):
     '''
-    строит скоринговую матрицу, по предоставленному алфавиту, как словарь словарей
+    функция строит скоринговую матрицу, по предоставленному алфавиту, как словарь словарей
     '''
     scoring_matrix = {}
     alphabet = list(alphabet)
